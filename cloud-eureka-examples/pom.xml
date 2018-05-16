@@ -4,17 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>cloud-discovery-all</artifactId>
         <groupId>org.godbles4me.cloud</groupId>
+        <artifactId>cloud-discovery-all</artifactId>
         <version>0.0.1</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>cloud-zookeeper-examples</artifactId>
+    <artifactId>cloud-eureka-examples</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>./cloud-zookeeper-examples-order</module>
-        <module>./cloud-zookeeper-examples-stock</module>
+        <module>cloud-eureka-examples-server</module>
+        <module>cloud-eureka-examples-order</module>
+        <module>cloud-eureka-examples-stock</module>
     </modules>
 
 

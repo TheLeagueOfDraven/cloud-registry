@@ -16,6 +16,9 @@
         <module>cloud-zookeeper-discovery</module>
         <module>cloud-zookeeper-examples</module>
         <module>cloud-zookeeper-examples</module>
+        <module>cloud-eureka-examples</module>
+        <module>cloud-consul-examples</module>
+        <module>cloud-redis-examples</module>
     </modules>
 
 </project>
