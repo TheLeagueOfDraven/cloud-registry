@@ -1,0 +1,13 @@
+server:
+  port: 8101
+
+spring:
+  application:
+    name: cloud-zookeeper-examples-stock
+  cloud:
+      zookeeper:
+        discovery:
+          enabled: true
+          root: zkCloud
+        connect-string: localhost:2181
+        enabled: true

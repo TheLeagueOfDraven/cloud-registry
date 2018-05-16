@@ -1,0 +1,25 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: cloud-zookeeper-examples-order
+  cloud:
+    zookeeper:
+      discovery:
+        enabled: true
+        root: zkCloud
+#        initial-status:
+#        instance-host:
+#        instance-id:
+#        instance-port:
+#        instance-ssl-port:
+#        metadata:
+#        register: true
+#        uri-spec: {scheme}://{address}:{port}
+      connect-string: localhost:2181
+      enabled: true
+#      default-health-endpoint:
+#      base-sleep-time-ms: 50
+#      block-until-connected-unit: seconds
+#      block-until-connected-wait: 10
