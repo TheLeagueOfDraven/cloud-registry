@@ -2,14 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>cloud-discovery-all</artifactId>
-        <groupId>org.godbles4me.cloud</groupId>
-        <version>0.0.1</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <parent>
+        <groupId>org.godbles4me.cloud</groupId>
+        <artifactId>cloud-discovery-all</artifactId>
+        <version>0.0.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
     <artifactId>cloud-consul-examples</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cloud-consul-examples-order</module>
+        <module>cloud-consul-examples-stock</module>
+    </modules>
 
 
 </project>
