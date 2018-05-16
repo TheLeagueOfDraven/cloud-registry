@@ -12,5 +12,9 @@
     <artifactId>cloud-redis-examples</artifactId>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>cloud-redis-examples-order</module>
+        <module>cloud-redis-examples-stock</module>
+    </modules>
 
 </project>
